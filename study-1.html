@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>study-1</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index-style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">인사 및 일상 대화를 하고 싶을때!</h2>
+        <div class="accordion" id="japanesePhrasesAccordion">
+            <!-- Greetings and Daily Conversation -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        기본 인삿말을 배워보자
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#japanesePhrasesAccordion">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>こんにちは (콘니치와) - 안녕하세요</li>
+                            <li>ありがとうございます (아리가토 고자이마스) - 감사합니다</li>
+                            <li>すみません (스미마셍) - 실례합니다/미안합니다</li>
+                            <li>おはようございます (오하요 고자이마스) - 좋은 아침입니다</li>
+                            <li>おやすみなさい (오야스미나사이) - 안녕히 주무세요</li>
+                            <li>お疲れ様でした (오츠카레사마데시타) - 수고하셨습니다</li>
+                            <li>ごめんなさい (고멘나사이) - 미안합니다</li>
+                            <li>どういたしまして (도우시타시마시테) - 천만에요</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- At the Restaurant -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        식당에 가보자
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#japanesePhrasesAccordion">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>メニューをください (메뉴 오 쿠다사이) - 메뉴 주세요</li>
+                            <li>注文します (추몬시마스) - 주문하겠습니다</li>
+                            <li>美味しいですか (오이시이데스카) - 맛있나요?</li>
+                            <li>お金をお願いします (오카네오 오네가이시마스) - 계산 부탁드립니다</li>
+                            <li>お水をください (오미즈 오 쿠다사이이) - 물 주세요</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Using Transportation -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        교통수단을 이용해보자
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#japanesePhrasesAccordion">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>駅はどこですか (에키와 도코데스카) - 역은 어디에요?</li>
+                            <li>チケットを買います (치켓토오 카이마스) - 티켓을 삽니다</li>
+                            <li>バスは何時ですか (바스와 난지 네스카) - 버스는 몇시인가요?</li>
+                            <li>降りる駅を教えてください (오리루 에키 오 오시에테 쿠다사이) - 내려야 할 역을 알려주세요</li>
+                            <li>タクシーを呼んでください (타쿠시 오 욘데 쿠다사이) - 택시를 불러주세요</li>
+                            <li>空港へお願いします (쿠우코우에 오네가이시마스) - 공항으로 부탁드립니다</li>
+                            <li>ここで止まってください (코코데 토맛테 쿠다사이) - 여기에 세워주세요</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
